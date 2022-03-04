@@ -1,0 +1,13 @@
+@media(max-width:576px){
+    .aboutus {
+        &__box {
+            &--img {
+                img {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

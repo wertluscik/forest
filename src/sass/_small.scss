@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
+	.nav {
+		&__links ul {
+			display: none;
+			// 	position: absolute;
+			// 	right: 0px;
+			// 	height: 92vh;
+			// 	top: 8vh;
+			// 	background-color: $white;
+			// 	display: flex;
+			// 	flex-direction: column;
+			// 	align-items: center;
+			// 	width: 50%;
+			// 	transform: translateX(100%);
+			//     transition: transform .5s ease-in;
+		}
+		// li {
+		// 	opacity: 0;
+		// }
+		&__burger {
+			display: block;
+		}
+	}
+}
+
+.offers {
+	&__heading {
+		font-size: 2rem;
+	}
+}
+.active {
+	transform: translateX(0%);
+}

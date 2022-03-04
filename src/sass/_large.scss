@@ -1,0 +1,23 @@
+@media (min-width: 992px) {
+    .section {
+		&__heading {
+			font-size: 4rem;
+		}
+	
+	}
+	.offers{
+		&__card{
+			&-info{
+				&-title {
+					font-size: 3.5rem;
+				}
+				&-price {
+					font-size: 5rem;
+				}
+				&-btn {
+					padding: 1em 3em;
+				}
+			}
+		}
+	}
+}
